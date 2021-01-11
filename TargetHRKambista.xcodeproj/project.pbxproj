@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E563B6B525A80D9200C876B7 /* TargetHRKambistaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E563B6B425A80D9200C876B7 /* TargetHRKambistaApp.swift */; };
+		E563B6B725A80D9200C876B7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E563B6B625A80D9200C876B7 /* LoginView.swift */; };
+		E563B6B925A80D9300C876B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E563B6B825A80D9300C876B7 /* Assets.xcassets */; };
+		E563B6BC25A80D9300C876B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E563B6BB25A80D9300C876B7 /* Preview Assets.xcassets */; };
+		E563B6C925A8207800C876B7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E563B6C825A8207800C876B7 /* HomeView.swift */; };
+		E569B45925A9268500CEDCC9 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569B45825A9268500CEDCC9 /* LoginResponse.swift */; };
+		E569B45D25A9276200CEDCC9 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569B45C25A9276200CEDCC9 /* LoginRequest.swift */; };
+		E569B46025A92CCF00CEDCC9 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E569B45F25A92CCF00CEDCC9 /* LoginViewModel.swift */; };
+		E5BA516225AA8C5400385BE0 /* CustomTextFieldRoundedStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BA516125AA8C5400385BE0 /* CustomTextFieldRoundedStyle.swift */; };
+		E5BA516E25AC8AEF00385BE0 /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BA516D25AC8AEF00385BE0 /* HTTPResponse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E563B6B125A80D9200C876B7 /* TargetHRKambista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TargetHRKambista.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E563B6B425A80D9200C876B7 /* TargetHRKambistaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetHRKambistaApp.swift; sourceTree = "<group>"; };
+		E563B6B625A80D9200C876B7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E563B6B825A80D9300C876B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E563B6BB25A80D9300C876B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E563B6BD25A80D9300C876B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E563B6C825A8207800C876B7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E569B45825A9268500CEDCC9 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		E569B45C25A9276200CEDCC9 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		E569B45F25A92CCF00CEDCC9 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E5BA516125AA8C5400385BE0 /* CustomTextFieldRoundedStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldRoundedStyle.swift; sourceTree = "<group>"; };
+		E5BA516D25AC8AEF00385BE0 /* HTTPResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPResponse.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E563B6AE25A80D9200C876B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E563B6A825A80D9200C876B7 = {
+			isa = PBXGroup;
+			children = (
+				E563B6B325A80D9200C876B7 /* TargetHRKambista */,
+				E563B6B225A80D9200C876B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E563B6B225A80D9200C876B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E563B6B125A80D9200C876B7 /* TargetHRKambista.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E563B6B325A80D9200C876B7 /* TargetHRKambista */ = {
+			isa = PBXGroup;
+			children = (
+				E5BA517125AC8BD100385BE0 /* feature */,
+				E5BA516425AC89C500385BE0 /* core */,
+				E563B6B425A80D9200C876B7 /* TargetHRKambistaApp.swift */,
+				E563B6B825A80D9300C876B7 /* Assets.xcassets */,
+				E563B6BD25A80D9300C876B7 /* Info.plist */,
+				E563B6BA25A80D9300C876B7 /* Preview Content */,
+			);
+			path = TargetHRKambista;
+			sourceTree = "<group>";
+		};
+		E563B6BA25A80D9300C876B7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E563B6BB25A80D9300C876B7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E5BA516425AC89C500385BE0 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				E5BA516625AC89F800385BE0 /* data */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		E5BA516625AC89F800385BE0 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				E5BA516825AC8A3800385BE0 /* api */,
+				E5BA516725AC8A1000385BE0 /* model */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		E5BA516725AC8A1000385BE0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E569B45825A9268500CEDCC9 /* LoginResponse.swift */,
+				E569B45C25A9276200CEDCC9 /* LoginRequest.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		E5BA516825AC8A3800385BE0 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				E5BA516D25AC8AEF00385BE0 /* HTTPResponse.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		E5BA517125AC8BD100385BE0 /* feature */ = {
+			isa = PBXGroup;
+			children = (
+				E5BA517425AC8C2300385BE0 /* home */,
+				E5BA517325AC8BF700385BE0 /* login */,
+				E5BA517225AC8BE300385BE0 /* utils */,
+			);
+			path = feature;
+			sourceTree = "<group>";
+		};
+		E5BA517225AC8BE300385BE0 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E5BA516125AA8C5400385BE0 /* CustomTextFieldRoundedStyle.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		E5BA517325AC8BF700385BE0 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				E563B6B625A80D9200C876B7 /* LoginView.swift */,
+				E569B45F25A92CCF00CEDCC9 /* LoginViewModel.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		E5BA517425AC8C2300385BE0 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				E563B6C825A8207800C876B7 /* HomeView.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E563B6B025A80D9200C876B7 /* TargetHRKambista */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E563B6C025A80D9300C876B7 /* Build configuration list for PBXNativeTarget "TargetHRKambista" */;
+			buildPhases = (
+				E563B6AD25A80D9200C876B7 /* Sources */,
+				E563B6AE25A80D9200C876B7 /* Frameworks */,
+				E563B6AF25A80D9200C876B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TargetHRKambista;
+			productName = TargetHRKambista;
+			productReference = E563B6B125A80D9200C876B7 /* TargetHRKambista.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E563B6A925A80D9200C876B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					E563B6B025A80D9200C876B7 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = E563B6AC25A80D9200C876B7 /* Build configuration list for PBXProject "TargetHRKambista" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E563B6A825A80D9200C876B7;
+			productRefGroup = E563B6B225A80D9200C876B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E563B6B025A80D9200C876B7 /* TargetHRKambista */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E563B6AF25A80D9200C876B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E563B6BC25A80D9300C876B7 /* Preview Assets.xcassets in Resources */,
+				E563B6B925A80D9300C876B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E563B6AD25A80D9200C876B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E563B6C925A8207800C876B7 /* HomeView.swift in Sources */,
+				E569B45925A9268500CEDCC9 /* LoginResponse.swift in Sources */,
+				E569B45D25A9276200CEDCC9 /* LoginRequest.swift in Sources */,
+				E563B6B725A80D9200C876B7 /* LoginView.swift in Sources */,
+				E563B6B525A80D9200C876B7 /* TargetHRKambistaApp.swift in Sources */,
+				E5BA516E25AC8AEF00385BE0 /* HTTPResponse.swift in Sources */,
+				E5BA516225AA8C5400385BE0 /* CustomTextFieldRoundedStyle.swift in Sources */,
+				E569B46025A92CCF00CEDCC9 /* LoginViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E563B6BE25A80D9300C876B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E563B6BF25A80D9300C876B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E563B6C125A80D9300C876B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TargetHRKambista/Preview Content\"";
+				DEVELOPMENT_TEAM = HW94V94GEW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TargetHRKambista/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.mowui.TargetHRKambista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E563B6C225A80D9300C876B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TargetHRKambista/Preview Content\"";
+				DEVELOPMENT_TEAM = HW94V94GEW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TargetHRKambista/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pe.mowui.TargetHRKambista;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E563B6AC25A80D9200C876B7 /* Build configuration list for PBXProject "TargetHRKambista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E563B6BE25A80D9300C876B7 /* Debug */,
+				E563B6BF25A80D9300C876B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E563B6C025A80D9300C876B7 /* Build configuration list for PBXNativeTarget "TargetHRKambista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E563B6C125A80D9300C876B7 /* Debug */,
+				E563B6C225A80D9300C876B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E563B6A925A80D9200C876B7 /* Project object */;
+}
